@@ -120,15 +120,29 @@ input:focus {
 @media (max-width: 768px) {
   .header {
     font-size: 1.8rem;
+    text-align: center; 
+    padding: 10px; 
   }
 
   input {
     font-size: 0.9rem;
+    width: 100%; 
+    padding: 8px; 
+    box-sizing: border-box; 
   }
 
   .images {
     width: 100%;
     height: auto;
+    margin-bottom: 10px; 
+  }
+
+  /* Optional: General body adjustments for mobile */
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
   }
 }
+
 
